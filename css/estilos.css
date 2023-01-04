@@ -36,26 +36,6 @@ body {
   animation: anim-stars 10s linear infinite;
 }
 
-.stars::after {
-  position: absolute;
-  content: " ";
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  box-shadow: 50px 30px white,
-  400px 80px white,
-  80px 500px white,
-  300px 20px white,
-  650px 330px white,
-  600px 250px white,
-  260px 200px white,
-  320px 100px white,
-  -320px 100px white,
-  -420px 100px white,
-  -720px -800px white,
-  -920px -600px white,
-  700px 300px white;
-}
 
 @keyframes anim-stars {
   from {
@@ -66,41 +46,6 @@ body {
   }
 }
 
-.body .rocket {
-  position: relative;
-  animation: anim-rocket 0.2s ease infinite;
-}
-@keyframes anim-rocket {
-  0%,100%{
-      transform: translateY(-2px);
-  }
-  50%{
-      transform: translateY(2px);
-  }
-
-}
-.body .rocket::before{
-content: '';
-position: absolute;
-bottom: -200px;
-left: 50%;
-transform: translateX(-50%);
-width: 10px;
-height: 200px;
-background: linear-gradient(#00d0ff,transparent);
-}
-
-.body .rocket::after{
-content: '';
-position: absolute;
-bottom: -200px;
-left: 50%;
-transform: translateX(-50%);
-width: 10px;
-height: 200px;
-background: linear-gradient(#00d0ff,transparent);
-filter: blur(20px);
-}
 
 .teclado {
   background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
