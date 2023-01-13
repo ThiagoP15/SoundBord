@@ -3,7 +3,7 @@
   --vermelha: #e93d50;
   --vermelha-escura: #af303f;
   --branca: #fff;
-  --luz: rgb(229, 255, 0);
+  --luz: #1E90FF;
 }
 
 body {
@@ -48,7 +48,7 @@ body {
 
 
 .teclado {
-  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+  background: linear-gradient(to bottom, #eeeeee00 0%,#cccccc62 100%);
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
   border-radius: 30px;
   display: grid;
@@ -74,7 +74,7 @@ body {
 
 .tecla.ativa,
 .tecla:active {
-  background-color: var(--vermelha);
+  background: linear-gradient(#FFDAB9, #FFA07A, #FA8072, #FF6347);
   border: 4px solid  var(--vermelha);
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
   color: var(--branca);

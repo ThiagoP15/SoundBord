@@ -25,6 +25,7 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
 
     tecla.onclick = function () {
         tocaSom(idAudio);
+       
     }
 
     tecla.ondblclick = function () {
@@ -34,7 +35,7 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
             tocaSom(idAudio)
             tecla.classList.remove('ativa');
         }
-    } 
+    }
     }
     tecla.onkeydown = function (evento) {
         if (evento.code === "Enter" || evento.code === "Space") {
