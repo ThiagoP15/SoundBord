@@ -75,7 +75,7 @@ body {
 .tecla.ativa,
 .tecla:active {
   background: linear-gradient(#FFDAB9, #FFA07A, #FA8072, #FF6347);
-  border: 4px solid  var(--vermelha);
+  border: 4px solid  #CD5C5C;
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
   color: var(--branca);
   outline: none;
